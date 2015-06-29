@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{596BCD0D-85E8-4969-B792-20871F1D1AAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinformsClient", "WinformsClient\WinformsClient.csproj", "{68F9E3A7-F569-477D-AF6E-14BBDEF20963}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{596BCD0D-85E8-4969-B792-20871F1D1AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{596BCD0D-85E8-4969-B792-20871F1D1AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{596BCD0D-85E8-4969-B792-20871F1D1AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F9E3A7-F569-477D-AF6E-14BBDEF20963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F9E3A7-F569-477D-AF6E-14BBDEF20963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F9E3A7-F569-477D-AF6E-14BBDEF20963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F9E3A7-F569-477D-AF6E-14BBDEF20963}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
