@@ -7,7 +7,7 @@ using System.Web.Http;
 
 namespace Chatter.Server.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class ValuesController : ApiController
     {
         // GET api/values
@@ -19,7 +19,7 @@ namespace Chatter.Server.Controllers
         // GET api/values/5
         public string Get(int id)
         {
-            return "value";
+            return "foo";
         }
 
         // POST api/values
