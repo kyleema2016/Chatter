@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinformsClient", "WinformsClient\WinformsClient.csproj", "{68F9E3A7-F569-477D-AF6E-14BBDEF20963}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebsiteClient", "WebsiteClient\WebsiteClient.csproj", "{EF24763D-13A4-4CB4-A611-250818BB0DB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{68F9E3A7-F569-477D-AF6E-14BBDEF20963}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68F9E3A7-F569-477D-AF6E-14BBDEF20963}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68F9E3A7-F569-477D-AF6E-14BBDEF20963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF24763D-13A4-4CB4-A611-250818BB0DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF24763D-13A4-4CB4-A611-250818BB0DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF24763D-13A4-4CB4-A611-250818BB0DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF24763D-13A4-4CB4-A611-250818BB0DB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
