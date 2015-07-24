@@ -1,0 +1,23 @@
+Using WebSockets in ASP.NET with SignalR
+
+What is WebSockets?
+•	WebSockets is a network protocol that enables 2-way, simultaneous, persistent (aka full-duplex, similar to telephone) communication between a client application (often a browser) and a web server.
+•	WebSockets can be used to send messages from the browser to the server and from the server to the browser.
+•	The server can “broadcast” a message to all connected browsers or to just a specific browser.
+•	The WebSockets protocol is a TCP-based protocol. It is independent from HTTP, the only relationship being it runs on port 80 and its handshake is interpreted by HTTP servers as an Upgrade request that switches the protocol from HTTP(S) to WS(S).
+•	The WebSockets protocol specification defines two new URI schemes, ws: and wss: for unencrypted and encrypted connections respectively.
+What are the benefits?
+•	The browser and server do not poll for messages as they would need to do with connectionless HTTP. Instead, the connection remains open and they “listen” for incoming messages with an event handler, which is triggered when a message arrives.
+•	The WebSockets protocol makes more interaction between a browser and a server possible, enabling live content and the creation of real-time applications. This is made possible by allowing messages to be passed back and forth over the open connection.
+•	As communication is done over TCP port 80, this benefits those environments where non-web Internet communication is blocked by a firewall.
+•	Client desktop applications written in .NET has also use WebSockets with a library called WebSocket4Net.
+What are the drawbacks?
+•	WebSockets is a fairly new technology and is only supported in newer browsers:
+IE10+, Firefox 31+, Chrome 31+, Chrome for Android 42+, Safari 7+, Opera 30+ (not yet on Opera Mini), Android Native Browser 4.4+.
+•	To host WebSockets on Windows IIS, only Windows Server 2012+ and Windows 8 are supported.
+What is SignalR?
+•	SignalR is an ASP.NET library that can be used to add real-time functionality to web applications. Real-time functionality is the ability to have server-side code push content to the connected clients as it happens, in real-time.
+•	SignalR takes advantage of WebSockets under the covers when it's available, and gracefully falls back to other techniques and technologies when it isn't, while the application code remains the same. This means we can run SignalR on Windows 7 IIS.
+Sample code
+•	Browser JavaScript
+
