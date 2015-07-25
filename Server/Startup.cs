@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using Microsoft.Owin;
 using Owin;
 
@@ -8,12 +6,12 @@ using Owin;
 
 namespace Chatter.Server
 {
-    public partial class Startup
-    {
-        public void Configuration(IAppBuilder app)
-        {
-            //ConfigureAuth(app);
-				app.MapSignalR();
-        }
-    }
+	public partial class Startup
+	{
+		public void Configuration(IAppBuilder app)
+		{
+			app.MapSignalR();
+		}
+	}
 }
+
