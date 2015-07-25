@@ -8,6 +8,11 @@ namespace Chatter.Server
 {
 	public class ChatHub : Hub
 	{
+      /// <summary>
+      /// Listens for
+      /// </summary>
+      /// <param name="name"></param>
+      /// <param name="message"></param>
 		public void Send(string name, string message)
 		{
 			// Call the broadcastMessage method to update clients.
