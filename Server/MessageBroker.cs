@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Netricity.Chatter.Server
+namespace Chatter.Server
 {
     public static class MessageBroker
     {
