@@ -5,3 +5,11 @@
             padding: 20px;
             margin: 20px;
         }
+
+#discussion-list {
+    padding-top: 10px;
+}
+
+.hidden-field {
+    display: none;
+}
