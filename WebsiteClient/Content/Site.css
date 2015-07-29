@@ -1,15 +1,19 @@
 ﻿
 .chat-container {
-            background-color: #99CCFF;
-            border: thick solid #808080;
-            padding: 20px;
-            margin: 20px;
-        }
-
-#discussion-list {
-    padding-top: 10px;
+	background-color: #99CCFF;
+	border: thick solid #808080;
+	padding: 20px;
+	margin: 20px;
 }
 
+#discussion-list {
+	padding-top: 10px;
+}
+
+	#discussion-list .list-group-item strong {
+		padding-right: 10px;
+	}
+
 .hidden-field {
-    display: none;
+	display: none;
 }
